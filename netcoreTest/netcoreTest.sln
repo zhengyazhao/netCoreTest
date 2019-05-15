@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcoreTest", "netcoreTest\netcoreTest.csproj", "{B8CDCE5D-2113-46C7-88C4-78BCA38AB0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netCoreTest.core", "netCoreTest.core\netCoreTest.core.csproj", "{4BB78597-F3F3-4E24-AF54-2EE1097CAA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ribbitMQ", "ribbitMQ", "{C48DE469-5225-41CC-BF38-0FE5F9D0904C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbitMQClient", "RibbitMQClient\RibbitMQClient.csproj", "{4C5A333E-0373-4B5E-A6A8-01C26D2E48E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibbitMQServer", "RibbitMQServer\RibbitMQServer.csproj", "{7956E3DE-6043-418C-9875-76785DCA6FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8CDCE5D-2113-46C7-88C4-78BCA38AB0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CDCE5D-2113-46C7-88C4-78BCA38AB0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CDCE5D-2113-46C7-88C4-78BCA38AB0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CDCE5D-2113-46C7-88C4-78BCA38AB0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB78597-F3F3-4E24-AF54-2EE1097CAA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB78597-F3F3-4E24-AF54-2EE1097CAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB78597-F3F3-4E24-AF54-2EE1097CAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB78597-F3F3-4E24-AF54-2EE1097CAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5A333E-0373-4B5E-A6A8-01C26D2E48E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5A333E-0373-4B5E-A6A8-01C26D2E48E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5A333E-0373-4B5E-A6A8-01C26D2E48E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5A333E-0373-4B5E-A6A8-01C26D2E48E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7956E3DE-6043-418C-9875-76785DCA6FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7956E3DE-6043-418C-9875-76785DCA6FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7956E3DE-6043-418C-9875-76785DCA6FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7956E3DE-6043-418C-9875-76785DCA6FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8CDCE5D-2113-46C7-88C4-78BCA38AB0C9} = {C48DE469-5225-41CC-BF38-0FE5F9D0904C}
+		{4BB78597-F3F3-4E24-AF54-2EE1097CAA2D} = {C48DE469-5225-41CC-BF38-0FE5F9D0904C}
+		{4C5A333E-0373-4B5E-A6A8-01C26D2E48E3} = {C48DE469-5225-41CC-BF38-0FE5F9D0904C}
+		{7956E3DE-6043-418C-9875-76785DCA6FBB} = {C48DE469-5225-41CC-BF38-0FE5F9D0904C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57F387C0-FF5F-4530-AA7E-C649AEDE6DD5}
+	EndGlobalSection
+EndGlobal
