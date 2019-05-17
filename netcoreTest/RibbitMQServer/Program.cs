@@ -1,6 +1,5 @@
-﻿using netCoreTest.core;
-using netCoreTest.core.ExchangeTypeModel;
-using netCoreTest.core.Model;
+﻿
+using RabbitMQHelper.Server;
 using System;
 using System.Text;
 
@@ -11,16 +10,10 @@ namespace RibbitMQServer
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //HostModel hostModel = new HostModel();
-            //hostModel.UserName = "admin";
-            //hostModel.PassWord = "admin";
-            //hostModel.Host = "127.0.0.1";
-            //hostModel.Port = 5672;
-            //RabbitMQModel rabbitMQModel = new RabbitMQModel(hostModel);
-            //rabbitMQModel.Connection();
-            //rabbitMQModel.GetMsg("Clent");
-            DirectPost directPost = new DirectPost();
-            directPost.GetMsg();
+            ConsumerServer consumerServer = new ConsumerServer();
+            consumerServer.GetMsg("Clent1");
+            Console.WriteLine("消费者已启动");
+                Console.ReadKey();
         
 
         }

@@ -3,8 +3,8 @@ E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\RibbitMQCl
 E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\RibbitMQClient.runtimeconfig.dev.json
 E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\RibbitMQClient.dll
 E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\RibbitMQClient.pdb
-E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\netCoreTest.core.dll
-E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\netCoreTest.core.pdb
+E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\RabbitMQHelper.dll
+E:\git\netcoreTest\netcoreTest\RibbitMQClient\bin\Debug\netcoreapp2.1\RabbitMQHelper.pdb
 E:\git\netcoreTest\netcoreTest\RibbitMQClient\obj\Debug\netcoreapp2.1\RibbitMQClient.csprojAssemblyReference.cache
 E:\git\netcoreTest\netcoreTest\RibbitMQClient\obj\Debug\netcoreapp2.1\RibbitMQClient.csproj.CoreCompileInputs.cache
 E:\git\netcoreTest\netcoreTest\RibbitMQClient\obj\Debug\netcoreapp2.1\RibbitMQClient.AssemblyInfoInputs.cache

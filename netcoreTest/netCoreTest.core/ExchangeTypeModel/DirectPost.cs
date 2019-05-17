@@ -15,18 +15,9 @@ namespace netCoreTest.core.ExchangeTypeModel
 
         RabbitMQModel rabbitMQModel;
 
-        public DirectPost()
+        public DirectPost(HostModel hostModel)
         {
-            HostModel hostModel = new HostModel();
-            hostModel.UserName = "admin";
-            hostModel.PassWord = "admin";
-            hostModel.Host = "127.0.0.1";
-            hostModel.Port = 5672;
-            hostModel.ExChangeModel =new ExChangeModel {
-                ExChangeName = "ClentName",
-                QueueName = "Clent",
-                RouteKey = "ClentRoute"
-            };
+         
             rabbitMQModel = new RabbitMQModel(hostModel);
             rabbitMQModel.Connection();
 
@@ -42,6 +33,11 @@ namespace netCoreTest.core.ExchangeTypeModel
         public void GetMsg()
         {
             rabbitMQModel.GetMsg();
+        }
+
+        public void CreateRecevice()
+        {
+            rabbitMQModel.CreateRecevice();
         }
     }
 }

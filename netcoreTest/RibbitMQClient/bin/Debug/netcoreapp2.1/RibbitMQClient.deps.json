@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v2.1": {
       "RibbitMQClient/1.0.0": {
         "dependencies": {
-          "netCoreTest.core": "1.0.0"
+          "RabbitMQHelper": "1.0.0"
         },
         "runtime": {
           "RibbitMQClient.dll": {}
@@ -651,12 +651,12 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "netCoreTest.core/1.0.0": {
+      "RabbitMQHelper/1.0.0": {
         "dependencies": {
           "RabbitMQ.Client": "5.1.0"
         },
         "runtime": {
-          "netCoreTest.core.dll": {}
+          "RabbitMQHelper.dll": {}
         }
       }
     }
@@ -1094,7 +1094,7 @@
       "path": "system.threading.timer/4.3.0",
       "hashPath": "system.threading.timer.4.3.0.nupkg.sha512"
     },
-    "netCoreTest.core/1.0.0": {
+    "RabbitMQHelper/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,14 @@
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\ConsulRegins.deps.json
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\ConsulRegins.dll
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\ConsulRegins.pdb
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\ConsulModels.dll
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\IConsulServer.dll
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\ConsulModels.pdb
+E:\git\netcoreTest\netcoreTest\ConsulRegins\bin\Debug\netstandard2.0\IConsulServer.pdb
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.csproj.CopyComplete
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.dll
+E:\git\netcoreTest\netcoreTest\ConsulRegins\obj\Debug\netstandard2.0\ConsulRegins.pdb

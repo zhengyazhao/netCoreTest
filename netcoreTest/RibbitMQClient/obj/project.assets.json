@@ -1179,17 +1179,17 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
-      "netCoreTest.core/1.0.0": {
+      "RabbitMQHelper/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "RabbitMQ.client": "5.1.0"
         },
         "compile": {
-          "bin/placeholder/netCoreTest.core.dll": {}
+          "bin/placeholder/RabbitMQHelper.dll": {}
         },
         "runtime": {
-          "bin/placeholder/netCoreTest.core.dll": {}
+          "bin/placeholder/RabbitMQHelper.dll": {}
         }
       }
     }
@@ -4288,16 +4288,16 @@
         "system.threading.timer.nuspec"
       ]
     },
-    "netCoreTest.core/1.0.0": {
+    "RabbitMQHelper/1.0.0": {
       "type": "project",
-      "path": "../netCoreTest.core/netCoreTest.core.csproj",
-      "msbuildProject": "../netCoreTest.core/netCoreTest.core.csproj"
+      "path": "../RabbitMQHelper/RabbitMQHelper.csproj",
+      "msbuildProject": "../RabbitMQHelper/RabbitMQHelper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
-      "netCoreTest.core >= 1.0.0"
+      "RabbitMQHelper >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4330,8 +4330,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\git\\netcoreTest\\netcoreTest\\netCoreTest.core\\netCoreTest.core.csproj": {
-              "projectPath": "E:\\git\\netcoreTest\\netcoreTest\\netCoreTest.core\\netCoreTest.core.csproj"
+            "E:\\git\\netcoreTest\\netcoreTest\\RabbitMQHelper\\RabbitMQHelper.csproj": {
+              "projectPath": "E:\\git\\netcoreTest\\netcoreTest\\RabbitMQHelper\\RabbitMQHelper.csproj"
             }
           }
         }

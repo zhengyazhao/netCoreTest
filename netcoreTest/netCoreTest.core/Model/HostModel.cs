@@ -28,6 +28,10 @@ namespace netCoreTest.core.Model
 
         public int Port { get; set; }
         public ExChangeModel ExChangeModel { get; set; }
+        /// <summary>
+        /// 虚拟路径
+        /// </summary>
+        public string VirtualHost { get; set; }
     }
     /// <summary>
     /// RabbitMq实体

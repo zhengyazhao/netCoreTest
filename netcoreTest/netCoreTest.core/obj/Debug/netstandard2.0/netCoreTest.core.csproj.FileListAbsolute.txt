@@ -1,9 +1,9 @@
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\bin\Debug\netstandard2.0\netCoreTest.core.deps.json
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\bin\Debug\netstandard2.0\netCoreTest.core.dll
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\bin\Debug\netstandard2.0\netCoreTest.core.pdb
+E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.csprojAssemblyReference.cache
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.csproj.CoreCompileInputs.cache
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.AssemblyInfoInputs.cache
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.AssemblyInfo.cs
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.dll
 E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.pdb
-E:\git\netcoreTest\netcoreTest\netCoreTest.core\obj\Debug\netstandard2.0\netCoreTest.core.csprojAssemblyReference.cache

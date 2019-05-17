@@ -8,7 +8,7 @@ using System.Text;
 
 namespace netCoreTest.core
 {
-    public class RabbitMQModel : IRabbitMqService
+    public class RabbitMQModel
     {
 
         private readonly ConnectionFactory factory = null;
@@ -36,57 +36,59 @@ namespace netCoreTest.core
         /// <summary>
         /// 创建连接
         /// </summary>
-        public void Connection()
+        public bool Connection()
         {
+            bool sflag = true;
             try
             {
                 //创建连接
                 connetction = factory.CreateConnection();
+               
                 //创建信道
                 channel = connetction.CreateModel();
+       
             }
             catch (Exception ex)
             {
+                sflag = false;
                 Console.WriteLine(ex.ToString());
             }
+            return sflag;
         }
 
         public void CreateQueueDir()
         {
             //定义一个direct类型的交换机
-            channel.ExchangeDeclare(exchangeName, ExchangeType.Direct, false, false, null);
+            channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
             //定义一个队列
             channel.QueueDeclare(queueName, false, false, false, null);
-            //将队列绑定交换机
+
+            ////将队列绑定交换机
+            //channel.QueueBind(queueName, exchangeName, routeKey, null);
+        }
+        public void CreateRecevice()
+        {
+            //Connection();
             channel.QueueBind(queueName, exchangeName, routeKey, null);
 
-
         }
-        public void CreateQueueDirTop(string queName)
-        {
-
-            /////定义一个direct类型的交换机
-            //channel.ExchangeDeclare(exchangeName,   ExchangeType.Topic, false, false, null);
-            ////定义一个队列
-            //channel.QueueDeclare(queName, false, false, false, null);
-            ////讲队列绑定到交换机
-            //channel.QueueBind(queName, exchangeName, routeKey, null);
-
-            //Console.WriteLine("\n 连接成功，请输入消息，输入exit退出");
-        }
+        /// <summary>
+        /// 生产消息
+        /// </summary>
+        /// <param name="msg">要发送的消息</param>
         public void SendMsg(string msg)
         {
             var sendBytes = Encoding.UTF8.GetBytes(msg);
             channel.BasicPublish(exchangeName, routeKey, null, sendBytes);
         }
-
-        public void CloseChannel()
-        {
-            channel.Close();
-        }
-
+        /// <summary>
+        /// 关闭连接
+        /// </summary>
         public void CloseConnection()
         {
+            //关闭信道
+            channel.Close();
+            //关闭连接
             connetction.Close();
         }
 
@@ -109,7 +111,6 @@ namespace netCoreTest.core
             Console.WriteLine("消费者已启动");
             Console.ReadKey();
             CloseConnection();
-            CloseChannel();
             return msg;
         }
 
