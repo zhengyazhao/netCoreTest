@@ -12,12 +12,12 @@ namespace RibbitMQClient
         {
             Console.WriteLine("消息生产者开始生产数据！");
             Console.WriteLine("输入exit退出!");
-
+            Console.WriteLine(args.ToString());
 
             ISendService sendService = new SendService();
 
             string input;
-
+           
             do
             {
 

@@ -12,5 +12,3 @@ E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Debug\netcoreapp2.1\RibbitMQSe
 E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Debug\netcoreapp2.1\RibbitMQServer.csproj.CopyComplete
 E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Debug\netcoreapp2.1\RibbitMQServer.dll
 E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Debug\netcoreapp2.1\RibbitMQServer.pdb
-E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Debug\netcoreapp2.1\netCoreTest.core.dll
-E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Debug\netcoreapp2.1\netCoreTest.core.pdb

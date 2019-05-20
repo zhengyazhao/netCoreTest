@@ -1,6 +1,7 @@
 E:\git\netcoreTest\netcoreTest\ConsulModels\bin\Debug\netstandard2.0\ConsulModels.deps.json
 E:\git\netcoreTest\netcoreTest\ConsulModels\bin\Debug\netstandard2.0\ConsulModels.dll
 E:\git\netcoreTest\netcoreTest\ConsulModels\bin\Debug\netstandard2.0\ConsulModels.pdb
+E:\git\netcoreTest\netcoreTest\ConsulModels\obj\Debug\netstandard2.0\ConsulModels.csprojAssemblyReference.cache
 E:\git\netcoreTest\netcoreTest\ConsulModels\obj\Debug\netstandard2.0\ConsulModels.csproj.CoreCompileInputs.cache
 E:\git\netcoreTest\netcoreTest\ConsulModels\obj\Debug\netstandard2.0\ConsulModels.AssemblyInfoInputs.cache
 E:\git\netcoreTest\netcoreTest\ConsulModels\obj\Debug\netstandard2.0\ConsulModels.AssemblyInfo.cs

@@ -49,7 +49,16 @@ namespace RabbitMQHelper.Server
             exchangeModel.Durable = false;
             exchangeModel.ExchangeName = "ClentName";
             exchangeModel.ExchangeType = ExchangeType.Direct;
-            exchangeModel.RouteKey = "ClentRoute";
+            exchangeModel.RouteKey = new List<string>();
+            if (msg.Contains("err"))
+            {
+                exchangeModel.RouteKey.Add( "ClentRoute.error");
+            }
+            else
+            {
+                exchangeModel.RouteKey.Add( "ClentRoute.info");
+            }
+           
             rabbitHelper.sendMsg(connection, queueName, msg, exchangeModel);
         }
 

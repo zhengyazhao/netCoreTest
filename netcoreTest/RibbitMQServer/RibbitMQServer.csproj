@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\netCoreTest.core\netCoreTest.core.csproj" />
     <ProjectReference Include="..\RabbitMQHelper\RabbitMQHelper.csproj" />
   </ItemGroup>
 

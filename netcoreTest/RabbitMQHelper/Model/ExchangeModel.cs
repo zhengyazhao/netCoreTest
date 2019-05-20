@@ -20,10 +20,11 @@ namespace RabbitMQHelper.Model
         /// <summary>
         /// 路由key
         /// </summary>
-        public string RouteKey { get; set; }
+        public List<string> RouteKey { get; set; }
         /// <summary>
         /// 是否持久化
         /// </summary>
         public bool Durable { get; set; }
     }
+   
 }

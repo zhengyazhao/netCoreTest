@@ -44,14 +44,14 @@ namespace RabbitMQHelper
             }
             return connection;
         }
-      /// <summary>
-      /// 
-      /// </summary>
-      /// <param name="conn"></param>
-      /// <param name="queueName"></param>
-      /// <param name="msg"></param>
-      /// <param name="exchangeModel"></param>
-      /// <returns></returns>
+        /// <summary>
+        /// 发送消息到消息队列
+        /// </summary>
+        /// <param name="conn">连接地址</param>
+        /// <param name="queueName">队列名称</param>
+        /// <param name="msg">发送的消息</param>
+        /// <param name="exchangeModel">交换机实体</param>
+        /// <returns></returns>
         public bool sendMsg(IConnection conn, string queueName, string msg, ExchangeModel exchangeModel)
         {
             bool sflag = true;
@@ -64,7 +64,7 @@ namespace RabbitMQHelper
                     //1交换机，交换机类型
                     channel.ExchangeDeclare(exchangeModel.ExchangeName, exchangeModel.ExchangeType);
                     //队列名称，是否持久化，独占的队列，不使用时是否自动删除，
-                    channel.QueueDeclare(queueName, exchangeModel.Durable,false,false,null);
+                    channel.QueueDeclare(queueName, exchangeModel.Durable, false, false, null);
                     //转换成byte数组
                     var sendBytes = Encoding.UTF8.GetBytes(msg);
                     //设置持久化参数
@@ -75,7 +75,7 @@ namespace RabbitMQHelper
                         properties = null;
                     }
                     //发送消息：交换机名称，路由，持久化参数，消息内容
-                    channel.BasicPublish(exchangeModel.ExchangeName, exchangeModel.RouteKey, properties, sendBytes);
+                    channel.BasicPublish(exchangeModel.ExchangeName, exchangeModel.RouteKey[0], properties, sendBytes);
                 }
             }
             catch (Exception)
@@ -89,32 +89,45 @@ namespace RabbitMQHelper
         /// <summary>
         /// 接收消息
         /// </summary>
-        /// <param name="connection"></param>
-        /// <param name="queueName"></param>
-        /// <param name="durable"></param>
+        /// <param name="connection">连接</param>
+        /// <param name="queueName">队列名称</param>
+        /// <param name="exchangeModel">交换机实体</param>
         /// <returns></returns>
-        public string ConsumMsg(IConnection connection,string queueName,bool durable)
+        public string ConsumMsg(IConnection connection, string queueName, ExchangeModel exchangeModel)
         {
             string msg = string.Empty;
             var channel = connection.CreateModel();
-            //using (var channel = connection.CreateModel())
-            //{
-                channel.QueueBind(queueName, "ClentName", "ClentRoute", null);
 
-                var consumer = new EventingBasicConsumer(channel);       
-                //接收到消息事件
-                consumer.Received += (ch, ea) =>
+            foreach (var item in exchangeModel.RouteKey)
+            {
+                //队列绑定：队列名称，交换机名称，路由
+                channel.QueueBind(queueName, exchangeModel.ExchangeName, item, null);
+            }
+
+            var consumer = new EventingBasicConsumer(channel);
+            //接收到消息事件
+            consumer.Received += (ch, ea) =>
+            {
+                var message = Encoding.UTF8.GetString(ea.Body);
+                msg = message;
+                //判断是否是正常消息
+                if (ea.RoutingKey == "ClentRoute.error")
                 {
-                    var message = Encoding.UTF8.GetString(ea.Body);
-                    msg = message;
-                    Console.WriteLine($"收到消息： {message}");
-                    //确认该消息已被消费
-                    channel.BasicAck(ea.DeliveryTag, false);
-                };
-                //启动消费者 设置为手动应答消息
-                channel.BasicConsume(queueName, false, consumer);
-                return msg;
-            //}
+                    Console.WriteLine($"收到异常消息： {message}");
+                }
+                else
+                {
+                    Console.WriteLine($"收到正常消息： {message}");
+                }
+
+
+                //确认该消息已被消费
+                channel.BasicAck(ea.DeliveryTag, false);
+            };
+            //启动消费者 设置为手动应答消息
+            channel.BasicConsume(queueName, false, consumer);
+            return msg;
+
         }
 
     }

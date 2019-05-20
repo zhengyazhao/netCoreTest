@@ -42,7 +42,16 @@ namespace RabbitMQHelper.Server
         }
         public string GetMsg(string queueName)
         {
-          return  rabbitHelper.ConsumMsg(connection, queueName, false);
+            ExchangeModel exchangeModel = new ExchangeModel();
+       
+            exchangeModel.ExchangeName = "ClentName";
+            exchangeModel.ExchangeType = ExchangeType.Direct;
+            //添加多个路由规则
+            exchangeModel.RouteKey = new List<string>();
+            exchangeModel.RouteKey.Add("ClentRoute.info");
+            exchangeModel.RouteKey.Add("ClentRoute.error");
+            //exchangeModel.RouteKey = "ClentRoute";
+            return  rabbitHelper.ConsumMsg(connection, queueName, exchangeModel);
         }
     }
 }

@@ -1,7 +1,6 @@
 E:\git\netcoreTest\netcoreTest\IConsulServer\bin\Debug\netstandard2.0\IConsulServer.deps.json
 E:\git\netcoreTest\netcoreTest\IConsulServer\bin\Debug\netstandard2.0\IConsulServer.dll
 E:\git\netcoreTest\netcoreTest\IConsulServer\bin\Debug\netstandard2.0\IConsulServer.pdb
-E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.csprojAssemblyReference.cache
 E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.csproj.CoreCompileInputs.cache
 E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.AssemblyInfoInputs.cache
 E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.AssemblyInfo.cs
