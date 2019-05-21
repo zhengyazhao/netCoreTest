@@ -1,0 +1,68 @@
+{
+  "ReRoutes": [
+
+    {
+      //下游路由模板，真实请求的路径
+      "DownstreamPathTemplate": "/api/{everything}",
+      //请求的方式，例如：http,https
+      "DownstreamScheme": "http",
+      //服务器名称
+      "ServiceName": "UserApi",
+      //启用consul服务
+      "UseServiceDiscovery": true,
+      //服务熔断
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3, //允许多少次异常请求
+        "DurationOfBreak": 5, //熔断时间，单位为秒
+        "TimeoutValue": 5000 //如果下游请求的处理时间超过多少则自动设置超时
+      },
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [ "admin" ], // 白名单
+      //  "EnableRateLimiting": true, // 是否启用限流
+      //  "Period": "1m", // 统计时间段：1s, 5m, 1h, 1d
+      //  "PeriodTimespan": 15, // 多少秒之后客户端可以重试
+      //  "Limit": 5 // 在统计时间段内允许的最大请求数量
+      //},
+      //"HttpHandlerOptions": {
+      //  "AllowAutoRedirect": false,
+      //  "UseCookieContainer": false,
+      //  "UseTracing": false
+      //},
+      //"ReRouteIsCaseSensitive": false,
+      //负载均衡：
+      //RoundRobin轮流发送;
+      //LeastConnection – 将请求发往最空闲的那个服务器
+      //NoLoadBalance – 总是发往第一个请求或者是服务发现
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+
+      //上游地址配置
+      "UpstreamPathTemplate": "/test/{everything}",
+      //上游支持的请求类型
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+
+      //"RequestIdKey": "OcRequestId"
+    }
+  ],
+  "GlobalConfiguration": {
+    //"RequestIdKey": "ot-traceid",
+    "BaseUrl": "https://localhost:8596",
+    //consul服务器地址和ip
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500
+    }
+    //,//全局配置
+    //"RateLimitOptions": {
+    //  "DisableRateLimitHeaders": false, // Http头  X-Rate-Limit 和 Retry-After 是否禁用
+    //  "QuotaExceededMessage": "Too many requests, are you OK?", // 当请求过载被截断时返回的消息
+    //  "HttpStatusCode": 999, // 当请求过载被截断时返回的http status
+    //  "ClientIdHeader": "client_id" // 用来识别客户端的请求头，默认是 ClientId
+    //}
+  }
+}

@@ -1,0 +1,11 @@
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\bin\Debug\netcoreapp2.1\OcelotServerAPI.deps.json
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\bin\Debug\netcoreapp2.1\OcelotServerAPI.runtimeconfig.json
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\bin\Debug\netcoreapp2.1\OcelotServerAPI.runtimeconfig.dev.json
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\bin\Debug\netcoreapp2.1\OcelotServerAPI.dll
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.RazorAssemblyInfo.cache
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.RazorAssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.RazorTargetAssemblyInfo.cache
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.csprojAssemblyReference.cache
