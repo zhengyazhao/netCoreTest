@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "fbe162c67d8e9c4c677ed2bf2de9bdfa5d69249f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "netcoreModel/1.0.0": {
+        "dependencies": {
+          "NEST": "6.7.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "netcoreModel.dll": {}
+        }
+      },
+      "Elasticsearch.Net/6.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Elasticsearch.Net.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.7.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NEST/6.7.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "6.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.7.0.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "netcoreModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elasticsearch.Net/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-03V7sjGKXuJBYmM8uZI794TbbMVOsG3gkViRTHEgXemC9O+GzUCgoEL0G8TIXvFFxJbzdayki6XC5y3oy1QdPw==",
+      "path": "elasticsearch.net/6.7.0",
+      "hashPath": "elasticsearch.net.6.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NEST/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qZNwhCYTyB/my8GoFPAOVXZqmP/Kqi/T4W7ygtCvKWn0btw7rK3YjzOponljRKRkt5f/Y/Bha1BfAfUPb9EU7w==",
+      "path": "nest/6.7.0",
+      "hashPath": "nest.6.7.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Autofac/4.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "Consul/0.7.2.6": {
         "type": "package",
         "dependencies": {
@@ -4459,6 +4468,26 @@
     }
   },
   "libraries": {
+    "Autofac/4.9.2": {
+      "sha512": "lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
+      "type": "package",
+      "path": "autofac/4.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.2.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
     "Consul/0.7.2.6": {
       "sha512": "P1fWEDOVsfksYvjzjObwd9KEqAOoEFdqTfEemY+XKojEgL+H0OALw9SBBYTIjqi1GKv0Kql8fb2/ZUe/E8Dk5w==",
       "type": "package",
@@ -5373,7 +5402,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
+      "sha512": "fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hasTools": true,
@@ -12060,7 +12089,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "NetCoreBuild >= 1.0.0"
+      "NetCoreBuild >= 1.0.0",
+      "autofac >= 4.9.2"
     ]
   },
   "packageFolders": {
@@ -12123,6 +12153,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "autofac": {
+            "target": "Package",
+            "version": "[4.9.2, )"
           }
         },
         "imports": [

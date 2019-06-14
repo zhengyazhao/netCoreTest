@@ -1,0 +1,9 @@
+E:\git\netcoreTest\netcoreTest\Model\bin\Debug\netstandard2.0\netcoreModel.deps.json
+E:\git\netcoreTest\netcoreTest\Model\bin\Debug\netstandard2.0\netcoreModel.dll
+E:\git\netcoreTest\netcoreTest\Model\bin\Debug\netstandard2.0\netcoreModel.pdb
+E:\git\netcoreTest\netcoreTest\Model\obj\Debug\netstandard2.0\netcoreModel.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\Model\obj\Debug\netstandard2.0\netcoreModel.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\Model\obj\Debug\netstandard2.0\netcoreModel.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\Model\obj\Debug\netstandard2.0\netcoreModel.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\Model\obj\Debug\netstandard2.0\netcoreModel.dll
+E:\git\netcoreTest\netcoreTest\Model\obj\Debug\netstandard2.0\netcoreModel.pdb

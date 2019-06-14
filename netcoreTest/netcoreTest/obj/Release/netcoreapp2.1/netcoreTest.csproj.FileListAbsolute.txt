@@ -1,0 +1,14 @@
+E:\git\netcoreTest\netcoreTest\netcoreTest\bin\Release\netcoreapp2.1\netcoreTest.deps.json
+E:\git\netcoreTest\netcoreTest\netcoreTest\bin\Release\netcoreapp2.1\netcoreTest.runtimeconfig.json
+E:\git\netcoreTest\netcoreTest\netcoreTest\bin\Release\netcoreapp2.1\netcoreTest.runtimeconfig.dev.json
+E:\git\netcoreTest\netcoreTest\netcoreTest\bin\Release\netcoreapp2.1\netcoreTest.dll
+E:\git\netcoreTest\netcoreTest\netcoreTest\bin\Release\netcoreapp2.1\netcoreTest.pdb
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.RazorAssemblyInfo.cache
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.RazorAssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.RazorTargetAssemblyInfo.cache
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.dll
+E:\git\netcoreTest\netcoreTest\netcoreTest\obj\Release\netcoreapp2.1\netcoreTest.pdb

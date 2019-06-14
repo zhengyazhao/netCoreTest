@@ -1,0 +1,14 @@
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\Web.ElasticSearchHelper.deps.json
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\Web.ElasticSearchHelper.dll
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\Web.ElasticSearchHelper.pdb
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\netcoreModel.dll
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\netcoreModel.pdb
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.csproj.CopyComplete
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.dll
+E:\git\netcoreTest\netcoreTest\Web.ElasticSearchHelper\obj\Debug\netstandard2.0\Web.ElasticSearchHelper.pdb

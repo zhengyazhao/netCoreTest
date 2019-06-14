@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "1b55c3b3a23cc58989b51d64a08c5fe3901a43b2"
+    "signature": "9e295e99e1add3a6e0116f693e363f0d13898f17"
   },
   "compilationOptions": {
     "defines": [
@@ -27,13 +27,25 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
-          "NetCoreBuild": "1.0.0"
+          "NetCoreBuild": "1.0.0",
+          "Autofac": "4.9.2"
         },
         "runtime": {
           "ConsulClient.dll": {}
         },
         "compile": {
           "ConsulClient.dll": {}
+        }
+      },
+      "Autofac/4.9.2": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.2.0",
+            "fileVersion": "4.9.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
         }
       },
       "Consul/0.7.2.6": {
@@ -3271,6 +3283,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Autofac/4.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
+      "path": "autofac/4.9.2",
+      "hashPath": "autofac.4.9.2.nupkg.sha512"
+    },
     "Consul/0.7.2.6": {
       "type": "package",
       "serviceable": true,
@@ -3281,7 +3300,7 @@
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
+      "sha512": "sha512-fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hashPath": "microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512"
     },

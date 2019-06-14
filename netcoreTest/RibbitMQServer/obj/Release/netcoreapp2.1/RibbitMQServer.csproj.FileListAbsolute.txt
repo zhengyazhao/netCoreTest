@@ -1,0 +1,14 @@
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RibbitMQServer.deps.json
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RibbitMQServer.runtimeconfig.json
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RibbitMQServer.runtimeconfig.dev.json
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RibbitMQServer.dll
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RibbitMQServer.pdb
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RabbitMQHelper.dll
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\bin\Release\netcoreapp2.1\RabbitMQHelper.pdb
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.csproj.CopyComplete
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.dll
+E:\git\netcoreTest\netcoreTest\RibbitMQServer\obj\Release\netcoreapp2.1\RibbitMQServer.pdb

@@ -1,0 +1,9 @@
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\bin\Release\netstandard2.0\RabbitMQHelper.deps.json
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\bin\Release\netstandard2.0\RabbitMQHelper.dll
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\bin\Release\netstandard2.0\RabbitMQHelper.pdb
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\obj\Release\netstandard2.0\RabbitMQHelper.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\obj\Release\netstandard2.0\RabbitMQHelper.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\obj\Release\netstandard2.0\RabbitMQHelper.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\obj\Release\netstandard2.0\RabbitMQHelper.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\obj\Release\netstandard2.0\RabbitMQHelper.dll
+E:\git\netcoreTest\netcoreTest\RabbitMQHelper\obj\Release\netstandard2.0\RabbitMQHelper.pdb

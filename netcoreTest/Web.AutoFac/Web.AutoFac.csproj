@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="autofac" Version="4.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Web.Iserver\Web.Iserver.csproj" />
+    <ProjectReference Include="..\Web.Server\Web.Server.csproj" />
+  </ItemGroup>
+
+</Project>

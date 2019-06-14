@@ -1,0 +1,14 @@
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\bin\Release\netcoreapp2.1\IdentityServerAuth.deps.json
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\bin\Release\netcoreapp2.1\IdentityServerAuth.runtimeconfig.json
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\bin\Release\netcoreapp2.1\IdentityServerAuth.runtimeconfig.dev.json
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\bin\Release\netcoreapp2.1\IdentityServerAuth.dll
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\bin\Release\netcoreapp2.1\IdentityServerAuth.pdb
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.RazorAssemblyInfo.cache
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.RazorAssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.RazorTargetAssemblyInfo.cache
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.dll
+E:\git\netcoreTest\netcoreTest\IdentityServerAuth\obj\Release\netcoreapp2.1\IdentityServerAuth.pdb
