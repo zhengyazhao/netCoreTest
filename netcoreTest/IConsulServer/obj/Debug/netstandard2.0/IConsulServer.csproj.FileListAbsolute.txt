@@ -6,3 +6,4 @@ E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulSer
 E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.AssemblyInfo.cs
 E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.dll
 E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.pdb
+E:\git\netcoreTest\netcoreTest\IConsulServer\obj\Debug\netstandard2.0\IConsulServer.csprojAssemblyReference.cache

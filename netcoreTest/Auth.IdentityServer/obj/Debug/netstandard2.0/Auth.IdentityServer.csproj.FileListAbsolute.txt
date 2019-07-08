@@ -1,0 +1,9 @@
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\bin\Debug\netstandard2.0\Auth.IdentityServer.deps.json
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\bin\Debug\netstandard2.0\Auth.IdentityServer.dll
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\bin\Debug\netstandard2.0\Auth.IdentityServer.pdb
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\obj\Debug\netstandard2.0\Auth.IdentityServer.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\obj\Debug\netstandard2.0\Auth.IdentityServer.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\obj\Debug\netstandard2.0\Auth.IdentityServer.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\obj\Debug\netstandard2.0\Auth.IdentityServer.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\obj\Debug\netstandard2.0\Auth.IdentityServer.dll
+E:\git\netcoreTest\netcoreTest\Auth.IdentityServer\obj\Debug\netstandard2.0\Auth.IdentityServer.pdb

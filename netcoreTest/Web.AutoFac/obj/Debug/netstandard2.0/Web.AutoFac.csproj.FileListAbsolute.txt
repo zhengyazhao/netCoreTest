@@ -1,0 +1,14 @@
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.AutoFac.deps.json
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.AutoFac.dll
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.AutoFac.pdb
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.Iserver.dll
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.Server.dll
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.Iserver.pdb
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\bin\Debug\netstandard2.0\Web.Server.pdb
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.csproj.CopyComplete
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.dll
+E:\git\netcoreTest\netcoreTest\Web.AutoFac\obj\Debug\netstandard2.0\Web.AutoFac.pdb

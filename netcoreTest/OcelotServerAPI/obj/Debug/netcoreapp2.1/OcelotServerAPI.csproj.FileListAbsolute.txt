@@ -9,3 +9,6 @@ E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotSer
 E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.AssemblyInfo.cs
 E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.RazorTargetAssemblyInfo.cache
 E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\bin\Debug\netcoreapp2.1\OcelotServerAPI.pdb
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.dll
+E:\git\netcoreTest\netcoreTest\OcelotServerAPI\obj\Debug\netcoreapp2.1\OcelotServerAPI.pdb

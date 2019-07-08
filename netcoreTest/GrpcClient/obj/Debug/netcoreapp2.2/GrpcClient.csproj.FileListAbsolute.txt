@@ -1,0 +1,11 @@
+E:\git\netcoreTest\netcoreTest\GrpcClient\bin\Debug\netcoreapp2.2\GrpcClient.deps.json
+E:\git\netcoreTest\netcoreTest\GrpcClient\bin\Debug\netcoreapp2.2\GrpcClient.runtimeconfig.json
+E:\git\netcoreTest\netcoreTest\GrpcClient\bin\Debug\netcoreapp2.2\GrpcClient.runtimeconfig.dev.json
+E:\git\netcoreTest\netcoreTest\GrpcClient\bin\Debug\netcoreapp2.2\GrpcClient.dll
+E:\git\netcoreTest\netcoreTest\GrpcClient\bin\Debug\netcoreapp2.2\GrpcClient.pdb
+E:\git\netcoreTest\netcoreTest\GrpcClient\obj\Debug\netcoreapp2.2\GrpcClient.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\GrpcClient\obj\Debug\netcoreapp2.2\GrpcClient.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\GrpcClient\obj\Debug\netcoreapp2.2\GrpcClient.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\GrpcClient\obj\Debug\netcoreapp2.2\GrpcClient.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\GrpcClient\obj\Debug\netcoreapp2.2\GrpcClient.dll
+E:\git\netcoreTest\netcoreTest\GrpcClient\obj\Debug\netcoreapp2.2\GrpcClient.pdb

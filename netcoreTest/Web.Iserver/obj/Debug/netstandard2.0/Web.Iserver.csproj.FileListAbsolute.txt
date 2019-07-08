@@ -1,0 +1,8 @@
+E:\git\netcoreTest\netcoreTest\Web.Iserver\bin\Debug\netstandard2.0\Web.Iserver.deps.json
+E:\git\netcoreTest\netcoreTest\Web.Iserver\bin\Debug\netstandard2.0\Web.Iserver.dll
+E:\git\netcoreTest\netcoreTest\Web.Iserver\bin\Debug\netstandard2.0\Web.Iserver.pdb
+E:\git\netcoreTest\netcoreTest\Web.Iserver\obj\Debug\netstandard2.0\Web.Iserver.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.Iserver\obj\Debug\netstandard2.0\Web.Iserver.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.Iserver\obj\Debug\netstandard2.0\Web.Iserver.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\Web.Iserver\obj\Debug\netstandard2.0\Web.Iserver.dll
+E:\git\netcoreTest\netcoreTest\Web.Iserver\obj\Debug\netstandard2.0\Web.Iserver.pdb

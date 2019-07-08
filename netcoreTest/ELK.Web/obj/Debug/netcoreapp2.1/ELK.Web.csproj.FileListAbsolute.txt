@@ -17,3 +17,4 @@ E:\git\netcoreTest\netcoreTest\ELK.Web\obj\Debug\netcoreapp2.1\ELK.Web.RazorTarg
 E:\git\netcoreTest\netcoreTest\ELK.Web\obj\Debug\netcoreapp2.1\ELK.Web.csproj.CopyComplete
 E:\git\netcoreTest\netcoreTest\ELK.Web\obj\Debug\netcoreapp2.1\ELK.Web.dll
 E:\git\netcoreTest\netcoreTest\ELK.Web\obj\Debug\netcoreapp2.1\ELK.Web.pdb
+E:\git\netcoreTest\netcoreTest\ELK.Web\bin\Debug\netcoreapp2.1\Dockerfile

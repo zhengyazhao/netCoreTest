@@ -1,0 +1,9 @@
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\bin\Release\netcoreapp2.2\GrpcLibrary.deps.json
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\bin\Release\netcoreapp2.2\GrpcLibrary.dll
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\bin\Release\netcoreapp2.2\GrpcLibrary.pdb
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\obj\Release\netcoreapp2.2\GrpcLibrary.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\obj\Release\netcoreapp2.2\GrpcLibrary.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\obj\Release\netcoreapp2.2\GrpcLibrary.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\obj\Release\netcoreapp2.2\GrpcLibrary.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\obj\Release\netcoreapp2.2\GrpcLibrary.dll
+E:\git\netcoreTest\netcoreTest\GrpcLibrary\obj\Release\netcoreapp2.2\GrpcLibrary.pdb

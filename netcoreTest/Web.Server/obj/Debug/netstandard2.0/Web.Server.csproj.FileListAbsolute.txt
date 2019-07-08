@@ -1,0 +1,12 @@
+E:\git\netcoreTest\netcoreTest\Web.Server\bin\Debug\netstandard2.0\Web.Server.deps.json
+E:\git\netcoreTest\netcoreTest\Web.Server\bin\Debug\netstandard2.0\Web.Server.dll
+E:\git\netcoreTest\netcoreTest\Web.Server\bin\Debug\netstandard2.0\Web.Server.pdb
+E:\git\netcoreTest\netcoreTest\Web.Server\bin\Debug\netstandard2.0\Web.Iserver.dll
+E:\git\netcoreTest\netcoreTest\Web.Server\bin\Debug\netstandard2.0\Web.Iserver.pdb
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.csprojAssemblyReference.cache
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.csproj.CoreCompileInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.AssemblyInfoInputs.cache
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.AssemblyInfo.cs
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.csproj.CopyComplete
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.dll
+E:\git\netcoreTest\netcoreTest\Web.Server\obj\Debug\netstandard2.0\Web.Server.pdb
